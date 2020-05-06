@@ -19,13 +19,9 @@ describe('Logged in user information', () => {
         query: {},
       },
     }
-    let response = {
-      setStatusCode: () => response,
-      setPayload: (d) => d,
-    }
 
     const route = require('../../../src/routes/logged-in-user-information.js')
-    const result = route.post(request, response)
+    const result = route.post(request)
     expect(result).toEqual({})
   })
   test('it should return user details when a token is provided', () => {
@@ -59,13 +55,9 @@ describe('Logged in user information', () => {
         query: {},
       },
     }
-    let response = {
-      setStatusCode: () => response,
-      setPayload: (d) => d,
-    }
 
     const route = require('../../../src/routes/logged-in-user-information.js')
-    const result = route.post(request, response)
+    const result = route.post(request)
     expect(result).toEqual({
       userId: 'bar',
       email: 'test@oneblink.io',
@@ -116,13 +108,9 @@ describe('Logged in user information', () => {
         query: {},
       },
     }
-    let response = {
-      setStatusCode: () => response,
-      setPayload: (d) => d,
-    }
 
     const route = require('../../../src/routes/logged-in-user-information.js')
-    const result = route.post(request, response)
+    const result = route.post(request)
     expect(result).toEqual({
       userId: 'bar',
       email: 'test@oneblink.io',
