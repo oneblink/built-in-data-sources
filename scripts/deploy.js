@@ -8,6 +8,7 @@ const execa = require('execa')
 async function deploy(environment) {
   try {
     // deploy oneblink
+    console.log('Starting OneBlink deployment')
     process.env.ONEBLINK_ACCESS_KEY = process.env.OB_ACCESS_KEY
     process.env.ONEBLINK_SECRET_KEY = process.env.OB_SECRET_KEY
     await runCommand('npx', [
@@ -25,6 +26,7 @@ async function deploy(environment) {
     ])
 
     // deploy civicplus
+    console.log('Starting CivicPlus deployment')
     process.env.ONEBLINK_ACCESS_KEY = process.env.CP_ACCESS_KEY
     process.env.ONEBLINK_SECRET_KEY = process.env.CP_SECRET_KEY
     await runCommand('npx', [
@@ -47,6 +49,7 @@ async function deploy(environment) {
 }
 
 async function runCommand(file, arguements) {
+  console.log('Running command', file, arguments)
   return await execa(file, arguements, {
     extendEnv: true,
   }).stdout.pipe(process.stdout)
@@ -57,4 +60,5 @@ if (!environment) {
   console.error('No environment specified')
   throw new Error('No environment specified')
 }
+console.log('Starting deployment for environment', environment)
 deploy(environment)
