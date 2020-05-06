@@ -26,8 +26,6 @@ function decodeToken(token /* :string | void */) {
   }
 }
 
-module.exports = getBearerToken
-
 const getUserInformation = function (req /* : BmRequest */) /* : Object */ {
   const token = getBearerToken(req)
   const userProfile = decodeToken(token)
