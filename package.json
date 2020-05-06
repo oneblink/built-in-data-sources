@@ -4,6 +4,8 @@
   "description": "Collection of built in data sources to be used with the OneBlink Productivity Suite",
   "main": "index.js",
   "scripts": {
+    "deploy:test": "node ./scripts/deploy.js test",
+    "deploy:prod": "node ./scripts/deploy.js prod",
     "eslint": "eslint --fix --cache .",
     "flow_check": "flow check",
     "jest": "jest",
@@ -21,11 +23,16 @@
     "url": "https://github.com/oneblink/built-in-data-sources/issues"
   },
   "homepage": "https://github.com/oneblink/built-in-data-sources#readme",
+  "dependencies": {
+    "jsonwebtoken": "8.5.1"
+  },
   "devDependencies": {
     "@oneblink/cli": "^0.1.4",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "execa": "^4.0.0",
     "flow-bin": "^0.121.0",
     "jest": "^26.0.0",
     "prettier": "^2.0.2"
@@ -33,8 +40,5 @@
   "engines": {
     "node": ">=12",
     "npm": ">=6"
-  },
-  "dependencies": {
-    "jsonwebtoken": "8.5.1"
   }
 }
