@@ -14,5 +14,4 @@ addons:
       - g++-4.8
 install:
   - npm install --global npm@6.x.x
-  - npm install -g .
   - npm ci

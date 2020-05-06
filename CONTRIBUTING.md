@@ -59,9 +59,3 @@ During development you will likely **not** wish to use the OneBlink Production E
    ```
    git push && git push --tags
    ```
-
-1. Publish changes to npm
-
-   ```
-   npm publish
-   ```
