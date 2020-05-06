@@ -16,13 +16,11 @@ install:
   - npm ci
 
 deploy:
-  provider: script
-  script: npm run deploy:test
-  on:
-    branch: master
-
-deploy:
-  provider: script
-  script: npm run deploy:prod
-  on:
-    tags: true
+  - provider: script
+    script: npm run deploy:test
+    on:
+      branch: master
+  - provider: script
+    script: npm run deploy:prod
+    on:
+      tags: true
