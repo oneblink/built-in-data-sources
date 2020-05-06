@@ -1,0 +1,40 @@
+{
+  "name": "built-in-data-sources",
+  "version": "1.0.0",
+  "description": "Collection of built in data sources to be used with the OneBlink Productivity Suite",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --fix --cache .",
+    "flow_check": "flow check",
+    "jest": "jest",
+    "oneblink": "oneblink api info",
+    "pretest": "npm run eslint && npm run flow_check && npm run oneblink",
+    "test": "npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneblink/built-in-data-sources.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oneblink/built-in-data-sources/issues"
+  },
+  "homepage": "https://github.com/oneblink/built-in-data-sources#readme",
+  "devDependencies": {
+    "@oneblink/cli": "^0.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "flow-bin": "^0.121.0",
+    "jest": "^26.0.0",
+    "prettier": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "jsonwebtoken": "8.5.1"
+  }
+}

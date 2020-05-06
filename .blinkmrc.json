@@ -1,0 +1,11 @@
+{
+  "server": {
+    "project": "oneblink-data-sources.api.oneblink.io",
+    "routes": [
+      {
+        "route": "/logged-in-user-information",
+        "module": "./src/routes/logged-in-user-information.js"
+      }
+    ]
+  }
+}
