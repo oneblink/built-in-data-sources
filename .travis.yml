@@ -15,3 +15,15 @@ addons:
 install:
   - npm install --global npm@6.x.x
   - npm ci
+
+deploy:
+  provider: script
+  script: npm run deploy:test
+  on:
+    branch: master
+
+deploy:
+  provider: script
+  script: npm run deploy:prod
+  on:
+    tags: true
