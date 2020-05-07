@@ -17,10 +17,10 @@ install:
 
 deploy:
   - provider: script
-    script: npm run deploy:test
+    script: bash scripts/deploy.sh test
     on:
       branch: master
   - provider: script
-    script: npm run deploy:prod
+    script: bash scripts/deploy.sh prod
     on:
       tags: true
