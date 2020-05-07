@@ -16,12 +16,13 @@ install:
   - npm ci
 
 deploy:
-  skip_cleanup: true
   - provider: script
+    skip_cleanup: true
     script: npm run deploy:test
     on:
       branch: master
   - provider: script
+    skip_cleanup: true
     script: npm run deploy:prod
     on:
       tags: true
