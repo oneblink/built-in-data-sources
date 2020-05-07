@@ -5,23 +5,24 @@ require('dotenv').config()
 // $FlowFixMe
 const execa = require('execa')
 
-async function deploy(environment) {
+function deploy(environment) {
   try {
     // deploy oneblink
     console.log('Starting OneBlink deployment')
     process.env.ONEBLINK_ACCESS_KEY = process.env.OB_ACCESS_KEY
     process.env.ONEBLINK_SECRET_KEY = process.env.OB_SECRET_KEY
-    await runCommand('npx', [
+    runCommand('npx', [
       'oneblink',
       'api',
       'scope',
       'oneblink-data-sources.api.oneblink.io',
     ])
-    await runCommand('npx', [
+    runCommand('npx', [
       'oneblink',
       'api',
       'deploy',
-      `--env ${environment}`,
+      '--env',
+      `${environment}`,
       '--force',
     ])
 
@@ -29,17 +30,18 @@ async function deploy(environment) {
     console.log('Starting CivicPlus deployment')
     process.env.ONEBLINK_ACCESS_KEY = process.env.CP_ACCESS_KEY
     process.env.ONEBLINK_SECRET_KEY = process.env.CP_SECRET_KEY
-    await runCommand('npx', [
+    runCommand('npx', [
       'civicplus',
       'api',
       'scope',
       'oneblink-data-sources.api.transform.civicplus.com',
     ])
-    await runCommand('npx', [
+    runCommand('npx', [
       'civicplus',
       'api',
       'deploy',
-      `--env ${environment}`,
+      '--env',
+      `${environment}`,
       '--force',
     ])
   } catch (error) {
@@ -48,11 +50,11 @@ async function deploy(environment) {
   }
 }
 
-async function runCommand(file, arguements) {
+function runCommand(file, arguements) {
   console.log('Running command', file, arguments)
-  return await execa(file, arguements, {
+  execa.sync(file, arguements, {
     extendEnv: true,
-  }).stdout.pipe(process.stdout)
+  })
 }
 
 const environment = process.argv[2]
@@ -60,5 +62,5 @@ if (!environment) {
   console.error('No environment specified')
   throw new Error('No environment specified')
 }
-console.log('Starting deployment for environment', environment)
+console.log('Starting deployment for environment:', environment)
 deploy(environment)
