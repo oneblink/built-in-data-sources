@@ -16,11 +16,12 @@ install:
   - npm ci
 
 deploy:
+  skip_cleanup: true
   - provider: script
-    script: bash scripts/deploy.sh test
+    script: npm run deploy:test
     on:
       branch: master
   - provider: script
-    script: bash scripts/deploy.sh prod
+    script: npm run deploy:prod
     on:
       tags: true
