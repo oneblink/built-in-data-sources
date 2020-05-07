@@ -1,6 +1,7 @@
 {
   "server": {
     "project": "oneblink-data-sources.api.oneblink.io",
+    "cors": true,
     "routes": [
       {
         "route": "/logged-in-user-information",
