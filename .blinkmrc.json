@@ -6,6 +6,10 @@
       {
         "route": "/logged-in-user-information",
         "module": "./src/routes/logged-in-user-information.js"
+      },
+      {
+        "route": "/logged-in-user-picture",
+        "module": "./src/routes/logged-in-user-picture.js"
       }
     ]
   }
