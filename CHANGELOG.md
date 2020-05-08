@@ -6,3 +6,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 
 - Added `/logged-in-user-information` route
+- Added `/logged-in-user-picture` route
