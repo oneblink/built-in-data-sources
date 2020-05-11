@@ -5,5 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 1.0.0 (2020-05-27) Do Not Resuscitate
+
 - Added `/logged-in-user-information` route
 - Added `/logged-in-user-picture` route
