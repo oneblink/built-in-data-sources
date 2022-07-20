@@ -168,5 +168,23 @@ describe('Logged in user information', () => {
     const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toHaveProperty('phoneNumber')
+    expect(result).toEqual({
+      userId: 'bar',
+      email: 'test@oneblink.io',
+      firstName: 'John',
+      lastName: 'Test',
+      fullName: 'Johny Test',
+      picture:
+        'https://www.google.com/search?sxsrf=ALeKk03TbSRk0MQfft8Jz2n7qrDGcrM-og:1588728449904&q=popular+Google+Doodle+games&oi=ddle&ct=153499290&hl=en&sa=X&ved=0ahUKEwiV3JjXip7pAhVZaCsKHV62CNgQPQgP',
+      role: 'God',
+      username: 'test@oneblink.io',
+      providerType: 'Cognito',
+      providerUserId: 'bar',
+      isSAMLUser: false,
+      supervisorFullName: 'Jesus Christ',
+      supervisorEmail: 'jesus@oneblink.io',
+      supervisorProviderUserId: 'sid',
+      phoneNumber: '+612 4322 1355',
+    })
   })
 })
