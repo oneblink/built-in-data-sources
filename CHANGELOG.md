@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 1.0.0 (2022-07-20) 1 man army
+
+- added `phoneNumber` to userProfile object
+
 ## 1.0.0 (2020-05-27) Do Not Resuscitate
 
 - Added `/logged-in-user-information` route
