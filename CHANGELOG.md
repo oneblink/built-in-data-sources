@@ -5,7 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
-## 1.0.0 (2022-07-20) 1 man army
+## 1.0.1 (2022-07-20) 1 man army
 
 - added `phoneNumber` to userProfile object
 
