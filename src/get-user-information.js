@@ -5,7 +5,6 @@ const jsonwebtoken = require('jsonwebtoken')
 
 function decodeToken(token /* : string | void */) {
   if (token) {
-    console.log(token)
     const { payload } = jsonwebtoken.decode(token, { complete: true })
     return payload
   }
