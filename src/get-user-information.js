@@ -32,7 +32,7 @@ module.exports = function getUserInformation(
       supervisorFullName: null,
       supervisorEmail: null,
       supervisorProviderUserId: null,
-      phoneNumber: userProfile.phoneNumber || null,
+      phoneNumber: userProfile['custom:phone_number'] || null,
     }
 
     if (

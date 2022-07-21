@@ -146,7 +146,7 @@ describe('Logged in user information', () => {
         'custom:supervisor_name': 'Jesus Christ',
         'custom:supervisor_email': 'jesus@oneblink.io',
         'custom:supervisor_user_id': 'sid',
-        phoneNumber: '+612 4322 1355',
+        'custom:phone_number': '+612 4322 1355',
       },
       'shhh',
     )}`

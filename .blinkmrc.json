@@ -1,6 +1,6 @@
 {
   "server": {
-    "project": "oneblink-data-sources.api.oneblink.io",
+    "project": "oneblink-data-sources.api.transform.civicplus.com",
     "cors": true,
     "routes": [
       {
