@@ -168,7 +168,6 @@ describe('Logged in user information', () => {
     const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toHaveProperty('phoneNumber')
-    console.log('RESULT', result)
     expect(result).toEqual({
       userId: 'bar',
       email: 'test@oneblink.io',
