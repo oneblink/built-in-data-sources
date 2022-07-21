@@ -32,6 +32,7 @@ module.exports = function getUserInformation(
       supervisorFullName: null,
       supervisorEmail: null,
       supervisorProviderUserId: null,
+      phoneNumber: userProfile.phoneNumber || null,
     }
 
     if (
