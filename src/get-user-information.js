@@ -5,6 +5,7 @@ const jsonwebtoken = require('jsonwebtoken')
 
 function decodeToken(token /* : string | void */) {
   if (token) {
+    console.log(token)
     const { payload } = jsonwebtoken.decode(token, { complete: true })
     return payload
   }
@@ -32,7 +33,7 @@ module.exports = function getUserInformation(
       supervisorFullName: null,
       supervisorEmail: null,
       supervisorProviderUserId: null,
-      phoneNumber: userProfile.phoneNumber || null,
+      phoneNumber: userProfile['custom:phone_number'] || null,
     }
 
     if (

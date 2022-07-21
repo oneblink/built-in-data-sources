@@ -146,7 +146,7 @@ describe('Logged in user information', () => {
         'custom:supervisor_name': 'Jesus Christ',
         'custom:supervisor_email': 'jesus@oneblink.io',
         'custom:supervisor_user_id': 'sid',
-        phoneNumber: '+612 4322 1355',
+        'custom:phone_number': '+612 4322 1355',
       },
       'shhh',
     )}`
@@ -168,6 +168,7 @@ describe('Logged in user information', () => {
     const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toHaveProperty('phoneNumber')
+    console.log('RESULT', result)
     expect(result).toEqual({
       userId: 'bar',
       email: 'test@oneblink.io',
