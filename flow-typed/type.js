@@ -16,4 +16,5 @@ declare type UserInformation = {
   supervisorFullName: string | null,
   supervisorEmail: string | null,
   supervisorProviderUserId: string | null,
+  phoneNumber: string | void,
 }
