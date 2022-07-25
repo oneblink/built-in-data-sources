@@ -7,7 +7,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- phone number to user profile
+## 1.0.1 (2022-07-25) CALL ME
+
+- Added `phoneNumber` to user profile
 
 ## 1.0.0 (2020-05-27) Do Not Resuscitate
 
