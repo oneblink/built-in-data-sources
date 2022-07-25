@@ -1,6 +1,6 @@
 {
   "name": "built-in-data-sources",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of built in data sources to be used with the OneBlink Productivity Suite",
   "main": "index.js",
   "scripts": {
