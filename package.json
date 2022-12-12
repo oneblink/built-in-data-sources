@@ -29,7 +29,7 @@
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "@oneblink/cli": "^0.1.4",
+    "@oneblink/cli": "^0.1.13",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
