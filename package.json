@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/oneblink/built-in-data-sources#readme",
   "dependencies": {
-    "@oneblink/sdk": "^0.4.5",
+    "@oneblink/sdk": "^4.0.1",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
