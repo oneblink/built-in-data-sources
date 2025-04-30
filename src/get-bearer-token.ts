@@ -1,9 +1,8 @@
-// @flow
-'use strict'
+import { OneBlinkAPIHostingRequest } from '@oneblink/cli'
 
-module.exports = function getBearerToken(
-  req /* : BmRequest */,
-) /* : string | void */ {
+export default function getBearerToken(
+  req: OneBlinkAPIHostingRequest<unknown>,
+): string | undefined {
   const token = req.headers.authorization
 
   if (!token || typeof token !== 'string') {

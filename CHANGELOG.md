@@ -5,13 +5,24 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+### Changed
+
+- flow to typescript
+- parsing of JWT token payload to `@oneblink/sdk-core` `userService.parseUserProfile()`
+
+## [1.0.1] - 2022-07-25
+
+##### Release Name: CALL ME
+
 ### Added
 
-## 1.0.1 (2022-07-25) CALL ME
+- `phoneNumber` to user profile
 
-- Added `phoneNumber` to user profile
+## [1.0.0] - 2020-05-27
 
-## 1.0.0 (2020-05-27) Do Not Resuscitate
+##### Release Name: Do Not Resuscitate
 
-- Added `/logged-in-user-information` route
-- Added `/logged-in-user-picture` route
+### Added
+
+- `/logged-in-user-information` route
+- `/logged-in-user-picture` route

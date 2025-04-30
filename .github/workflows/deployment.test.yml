@@ -1,0 +1,37 @@
+name: Test Deployment
+
+on:
+  push:
+    branches:
+      - master
+      - 'hotfix/**'
+
+jobs:
+  #
+  # OneBlink Tenant
+  #
+  OneBlinkTest:
+    name: Test Deployment (OneBlink)
+    if: ${{ !startsWith(github.event.head_commit.message, '[RELEASE]') }}
+    uses: ./.github/workflows/deployment.yml
+    with:
+      CLI: oneblink
+      SCOPE: oneblink-data-sources.api.oneblink.io
+      ENV: test
+      ACCESS_KEY: ${{ vars.OB_ACCESS_KEY }}
+    secrets:
+      SECRET_KEY: ${{ secrets.OB_SECRET_KEY }}
+  #
+  # CivicPlus Tenant
+  #
+  CivicPlusTest:
+    name: Test Deployment (CivicPlus)
+    if: ${{ !startsWith(github.event.head_commit.message, '[RELEASE]') }}
+    uses: ./.github/workflows/deployment.yml
+    with:
+      CLI: civicplus
+      SCOPE: oneblink-data-sources.api.transform.civicplus.com
+      ENV: test
+      ACCESS_KEY: ${{ vars.CP_ACCESS_KEY }}
+    secrets:
+      SECRET_KEY: ${{ secrets.CP_SECRET_KEY }}

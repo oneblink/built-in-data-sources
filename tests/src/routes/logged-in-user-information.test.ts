@@ -1,7 +1,6 @@
-/* eslint-env jest */
-// @flow
-'use strict'
-const jsonwebtoken = require('jsonwebtoken')
+import { OneBlinkAPIHostingRequest } from '@oneblink/cli'
+import jsonwebtoken from 'jsonwebtoken'
+import * as route from '../../../src/routes/logged-in-user-information.js'
 
 describe('Logged in user information', () => {
   test('it should return {} when no token is provided', () => {
@@ -17,10 +16,10 @@ describe('Logged in user information', () => {
         pathname: '',
         protocol: 'https:',
         query: {},
+        querystring: '',
       },
-    }
+    } as OneBlinkAPIHostingRequest<unknown>
 
-    const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toEqual({})
   })
@@ -53,10 +52,10 @@ describe('Logged in user information', () => {
         pathname: '',
         protocol: 'https:',
         query: {},
+        querystring: '',
       },
-    }
+    } as OneBlinkAPIHostingRequest<unknown>
 
-    const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toEqual({
       userId: 'bar',
@@ -74,7 +73,6 @@ describe('Logged in user information', () => {
       supervisorFullName: 'Jesus Christ',
       supervisorEmail: 'jesus@oneblink.io',
       supervisorProviderUserId: 'sid',
-      phoneNumber: null,
     })
   })
   test('it should return idp details when a token is provided with identities', () => {
@@ -107,10 +105,10 @@ describe('Logged in user information', () => {
         pathname: '',
         protocol: 'https:',
         query: {},
+        querystring: '',
       },
-    }
+    } as OneBlinkAPIHostingRequest<unknown>
 
-    const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toEqual({
       userId: 'bar',
@@ -128,7 +126,6 @@ describe('Logged in user information', () => {
       supervisorFullName: 'Jesus Christ',
       supervisorEmail: 'jesus@oneblink.io',
       supervisorProviderUserId: 'sid',
-      phoneNumber: null,
     })
   })
 
@@ -162,10 +159,10 @@ describe('Logged in user information', () => {
         pathname: '',
         protocol: 'https:',
         query: {},
+        querystring: '',
       },
-    }
+    } as OneBlinkAPIHostingRequest<unknown>
 
-    const route = require('../../../src/routes/logged-in-user-information.js')
     const result = route.post(request)
     expect(result).toHaveProperty('phoneNumber')
     expect(result).toEqual({
