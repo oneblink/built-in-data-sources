@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  push:
+    branches-ignore:
+      - 'master'
+      - 'hotfix/**'
+    tags-ignore:
+      - '**'
+
+jobs:
+  Test:
+    name: Test Node.js ${{ matrix.node }} on ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        node: ['20']
+        os: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm install --global npm@10
+      - run: npm ci
+      - run: npm test

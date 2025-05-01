@@ -1,14 +1,11 @@
-// @flow
-'use strict'
-
-const OneBlink = require('@oneblink/sdk')
-
-const getUserInformation = require('../get-user-information')
-const getBearerToken = require('../get-bearer-token')
+import { OneBlinkAPIHostingRequest } from '@oneblink/cli'
+import * as OneBlink from '@oneblink/sdk'
+import getUserInformation from '../get-user-information.js'
+import getBearerToken from '../get-bearer-token.js'
 
 const generateUserPictureHandler = function (
-  req /* : BmRequest */,
-) /* : mixed[] */ {
+  req: OneBlinkAPIHostingRequest<unknown>,
+): unknown[] {
   const token = getBearerToken(req)
   const userInformation = getUserInformation(token)
 
@@ -26,6 +23,4 @@ const generateUserPictureHandler = function (
   ]
 }
 
-module.exports = {
-  post: generateUserPictureHandler,
-}
+export { generateUserPictureHandler as post }
