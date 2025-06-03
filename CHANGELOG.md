@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.3.0] - 2025-06-03
+
+##### Release Name: Trusted Weather
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [11.4.0-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [11.3.1-beta.2](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update [@oneblink/sdk-core](https://www.npmjs.com/package/@oneblink/sdk-core) to [8.4.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.3.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.2.0] - 2025-05-22
 
 ##### Release Name: Landslide
