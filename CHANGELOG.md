@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.4.0] - 2025-06-16
+
+##### Release Name: The Big Wet
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [11.5.0-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [11.4.0-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.3.0] - 2025-06-03
 
 ##### Release Name: Trusted Weather
