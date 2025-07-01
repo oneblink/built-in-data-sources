@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.5.0] - 2025-07-01
+
+##### Release Name: Winter Sheets
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [11.6.0-beta.2](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [11.5.0-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update [@oneblink/sdk-core](https://www.npmjs.com/package/@oneblink/sdk-core) to [8.5.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.4.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.4.0] - 2025-06-16
 
 ##### Release Name: The Big Wet
