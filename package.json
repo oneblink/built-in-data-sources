@@ -7,7 +7,7 @@
     "url": "https://github.com/oneblink/built-in-data-sources/issues"
   },
   "dependencies": {
-    "@oneblink/sdk": "^11.7.0-beta.7",
+    "@oneblink/sdk": "^11.7.0-beta.8",
     "@oneblink/sdk-core": "^8.5.1-beta.1",
     "jsonwebtoken": "^9.0.2"
   },
