@@ -1,7 +1,7 @@
 {
   "name": "built-in-data-sources",
   "description": "Collection of built in data sources to be used with the OneBlink Productivity Suite",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "author": "",
   "bugs": {
     "url": "https://github.com/oneblink/built-in-data-sources/issues"

@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.7.0] - 2025-07-25
+
+##### Release Name: Salt Grains
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [11.8.0-beta.7](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [11.7.0-beta.8](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update [@oneblink/sdk-core](https://www.npmjs.com/package/@oneblink/sdk-core) to [8.6.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.5.1-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.6.0] - 2025-07-10
 
 ##### Release Name: The Whole Noggin
