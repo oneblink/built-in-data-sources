@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.8.0] - 2025-08-11
+
+##### Release Name: Plague Doctor
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [11.8.1-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [11.8.0-beta.7](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update [@oneblink/sdk-core](https://www.npmjs.com/package/@oneblink/sdk-core) to [8.7.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.6.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.7.0] - 2025-07-25
 
 ##### Release Name: Salt Grains
