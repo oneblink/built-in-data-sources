@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.9.0] - 2025-08-29
+
+##### Release Name: Sinking the White
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [12.0.0-beta.2](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [11.8.1-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update [@oneblink/sdk-core](https://www.npmjs.com/package/@oneblink/sdk-core) to [8.8.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.7.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.8.0] - 2025-08-11
 
 ##### Release Name: Plague Doctor
