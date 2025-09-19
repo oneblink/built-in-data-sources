@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.11.0] - 2025-09-19
+
+##### Release Name: Font of Wisdom
+
+### Dependencies
+
+- update [@oneblink/sdk](https://www.npmjs.com/package/@oneblink/sdk) to [12.2.0-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [12.1.0-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.10.0] - 2025-09-15
 
 ##### Release Name: Blind Indifference
