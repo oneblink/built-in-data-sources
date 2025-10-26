@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.12.0] - 2025-10-26
+
+##### Release Name: Chronowarden
+
+### Dependencies
+
+- update @oneblink/sdk to [12.3.0-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [12.2.0-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [8.9.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.8.1-beta.3](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.11.0] - 2025-09-19
 
 ##### Release Name: Font of Wisdom
