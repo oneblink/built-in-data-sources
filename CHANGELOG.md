@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.13.0] - 2025-11-07
+
+##### Release Name: Menacing Shovel
+
+### Dependencies
+
+- update @oneblink/sdk to [12.3.1-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [12.3.0-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.12.0] - 2025-10-26
 
 ##### Release Name: Chronowarden
