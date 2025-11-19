@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.14.0] - 2025-11-19
+
+##### Release Name: Pathetically Human
+
+### Dependencies
+
+- update @oneblink/sdk to [12.4.0-beta.5](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [12.3.1-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [8.10.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.9.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.13.0] - 2025-11-07
 
 ##### Release Name: Menacing Shovel
