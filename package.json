@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@oneblink/sdk": "^12.6.0-beta.1",
-    "@oneblink/sdk-core": "^8.10.0-beta.1",
+    "@oneblink/sdk-core": "^8.11.1-beta.4",
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
