@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.16.0] - 2025-12-17
+
+##### Release Name: Death Blade
+
+### Dependencies
+
+- update @oneblink/sdk to [12.6.0-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [12.5.0-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [8.11.1-beta.4](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.10.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.15.0] - 2025-12-04
 
 ##### Release Name: Gwardies
