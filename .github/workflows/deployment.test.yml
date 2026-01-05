@@ -36,7 +36,7 @@ jobs:
     secrets:
       SECRET_KEY: ${{ secrets.CP_SECRET_KEY }}
   #
-  # OneBlink Tenant
+  # OneBlink US Tenant
   #
   OneBlinkUSTest:
     name: Test Deployment (OneBlink US)
