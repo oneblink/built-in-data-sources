@@ -43,7 +43,7 @@ jobs:
     if: ${{ !startsWith(github.event.head_commit.message, '[RELEASE]') }}
     uses: ./.github/workflows/deployment.yml
     with:
-      CLI: oneblinkus
+      CLI: oneblink-us
       SCOPE: oneblink-data-sources.api.us.oneblink.io
       ENV: test
       ACCESS_KEY: ${{ vars.OB_US_ACCESS_KEY }}
