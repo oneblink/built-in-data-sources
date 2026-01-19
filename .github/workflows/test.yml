@@ -12,18 +12,13 @@ jobs:
   Test:
     name: Test Node.js ${{ matrix.node }} on ${{ matrix.os }}
 
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node: ['20']
-        os: [ubuntu-latest]
+    runs-on: 'ubuntu-latest'
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
-          node-version: ${{ matrix.node }}
-      - run: npm install --global npm@10
+          node-version: 24
+      - run: npm install --global npm@11
       - run: npm ci
       - run: npm test
