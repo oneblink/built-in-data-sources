@@ -35,3 +35,17 @@ jobs:
       ACCESS_KEY: ${{ vars.CP_ACCESS_KEY }}
     secrets:
       SECRET_KEY: ${{ secrets.CP_SECRET_KEY }}
+  #
+  # OneBlink US Tenant
+  #
+  OneBlinkUSTest:
+    name: Test Deployment (OneBlink US)
+    if: ${{ !startsWith(github.event.head_commit.message, '[RELEASE]') }}
+    uses: ./.github/workflows/deployment.yml
+    with:
+      CLI: oneblink-us
+      SCOPE: oneblink-data-sources.api.us.oneblink.io
+      ENV: test
+      ACCESS_KEY: ${{ vars.OB_US_ACCESS_KEY }}
+    secrets:
+      SECRET_KEY: ${{ secrets.OB_US_SECRET_KEY }}

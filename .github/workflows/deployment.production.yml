@@ -29,3 +29,16 @@ jobs:
       ACCESS_KEY: ${{ vars.CP_ACCESS_KEY }}
     secrets:
       SECRET_KEY: ${{ secrets.CP_SECRET_KEY }}
+  #
+  # OneBlink US Tenant
+  #
+  OneBlinkUSProduction:
+    name: Production Deployment (OneBlink US)
+    uses: ./.github/workflows/deployment.yml
+    with:
+      CLI: oneblink-us
+      SCOPE: oneblink-data-sources.api.us.oneblink.io
+      ENV: prod
+      ACCESS_KEY: ${{ vars.OB_US_ACCESS_KEY }}
+    secrets:
+      SECRET_KEY: ${{ secrets.OB_US_SECRET_KEY }}
