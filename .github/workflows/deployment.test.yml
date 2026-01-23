@@ -19,6 +19,7 @@ jobs:
       SCOPE: oneblink-data-sources.api.test.oneblink.io
       ENV: prod
       ACCESS_KEY: ${{ vars.TEST_OB_ACCESS_KEY }}
+      ONEBLINK_CLI_ENVIRONMENT: test
     secrets:
       SECRET_KEY: ${{ secrets.TEST_OB_SECRET_KEY }}
   #
@@ -33,6 +34,7 @@ jobs:
       SCOPE: oneblink-data-sources.api.test.transform.civicplus.com
       ENV: prod
       ACCESS_KEY: ${{ vars.TEST_CP_ACCESS_KEY }}
+      ONEBLINK_CLI_ENVIRONMENT: test
     secrets:
       SECRET_KEY: ${{ secrets.TEST_CP_SECRET_KEY }}
   #
@@ -47,5 +49,6 @@ jobs:
       SCOPE: oneblink-data-sources.api.test.us.oneblink.io
       ENV: prod
       ACCESS_KEY: ${{ vars.TEST_OB_US_ACCESS_KEY }}
+      ONEBLINK_CLI_ENVIRONMENT: test
     secrets:
       SECRET_KEY: ${{ secrets.TEST_OB_US_SECRET_KEY }}
