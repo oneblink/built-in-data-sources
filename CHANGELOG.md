@@ -9,6 +9,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - `OneBlink US` tenant
 
+### Changed
+
+- Moved test deployments into respective test tenants
+
 ## [1.16.0] - 2025-12-17
 
 ##### Release Name: Death Blade

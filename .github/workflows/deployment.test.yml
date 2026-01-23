@@ -16,11 +16,11 @@ jobs:
     uses: ./.github/workflows/deployment.yml
     with:
       CLI: oneblink
-      SCOPE: oneblink-data-sources.api.oneblink.io
-      ENV: test
-      ACCESS_KEY: ${{ vars.OB_ACCESS_KEY }}
+      SCOPE: oneblink-data-sources.api.test.oneblink.io
+      ENV: prod
+      ACCESS_KEY: ${{ vars.TEST_OB_ACCESS_KEY }}
     secrets:
-      SECRET_KEY: ${{ secrets.OB_SECRET_KEY }}
+      SECRET_KEY: ${{ secrets.TEST_OB_SECRET_KEY }}
   #
   # CivicPlus Tenant
   #
@@ -30,11 +30,11 @@ jobs:
     uses: ./.github/workflows/deployment.yml
     with:
       CLI: civicplus
-      SCOPE: oneblink-data-sources.api.transform.civicplus.com
-      ENV: test
-      ACCESS_KEY: ${{ vars.CP_ACCESS_KEY }}
+      SCOPE: oneblink-data-sources.api.test.transform.civicplus.com
+      ENV: prod
+      ACCESS_KEY: ${{ vars.TEST_CP_ACCESS_KEY }}
     secrets:
-      SECRET_KEY: ${{ secrets.CP_SECRET_KEY }}
+      SECRET_KEY: ${{ secrets.TEST_CP_SECRET_KEY }}
   #
   # OneBlink US Tenant
   #
@@ -44,8 +44,8 @@ jobs:
     uses: ./.github/workflows/deployment.yml
     with:
       CLI: oneblink-us
-      SCOPE: oneblink-data-sources.api.us.oneblink.io
-      ENV: test
-      ACCESS_KEY: ${{ vars.OB_US_ACCESS_KEY }}
+      SCOPE: oneblink-data-sources.api.test.us.oneblink.io
+      ENV: prod
+      ACCESS_KEY: ${{ vars.TEST_OB_US_ACCESS_KEY }}
     secrets:
-      SECRET_KEY: ${{ secrets.OB_US_SECRET_KEY }}
+      SECRET_KEY: ${{ secrets.TEST_OB_US_SECRET_KEY }}
