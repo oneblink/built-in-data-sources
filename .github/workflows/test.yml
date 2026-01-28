@@ -10,7 +10,7 @@ on:
 
 jobs:
   Test:
-    name: Test Node.js ${{ matrix.node }} on ${{ matrix.os }}
+    name: CI Tests
 
     runs-on: 'ubuntu-latest'
 
