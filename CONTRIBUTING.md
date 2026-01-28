@@ -8,26 +8,22 @@ This project adheres to [GitHub Flow](https://guides.github.com/introduction/flo
 
 During development you will likely **not** wish to use the OneBlink Production Environment. This can be achieve by setting the `ONEBLINK_CLI_ENVIRONMENT` variable to the value of the environment you wish to use e.g. `test`.
 
-## Test Release Process
+## Release Process
+
+### Test Environment
 
 There is no release process to deploy to the Test environment, all commits to `master` trigger a deployment to the Test Environment.
 
-## Production Release Process
+### Production Environment
 
-1. Checkout `master`
+1.  Install the release CLI globally
 
-   ```
-   git checkout master
-   ```
+    ```
+    npm i -g @oneblink/release-cli
+    ```
 
-1. Get the latest code
+1.  Start a product release and follow the prompts to release this repository
 
-   ```
-   git pull
-   ```
-
-1. Start the release process
-
-   ```
-   npm run release
-   ```
+    ```
+    oneblink-release product
+    ```

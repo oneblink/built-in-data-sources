@@ -16,13 +16,7 @@ const compat = new FlatCompat({
 
 export default defineConfig([
   {
-    ignores: [
-      '**/node_modules',
-      '**/dist',
-      '**/docs',
-      '**/eslint.config.mjs',
-      '**/jest.config.ts',
-    ],
+    ignores: ['**/node_modules', '**/dist'],
   },
   {
     extends: compat.extends(

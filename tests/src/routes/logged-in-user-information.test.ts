@@ -1,4 +1,5 @@
-import { OneBlinkAPIHostingRequest } from '@oneblink/cli'
+import { describe, expect, test } from 'vitest'
+import type { OneBlinkAPIHostingRequest } from '@oneblink/cli'
 import jsonwebtoken from 'jsonwebtoken'
 import * as route from '../../../src/routes/logged-in-user-information.js'
 
