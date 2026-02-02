@@ -5,9 +5,21 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.17.0] - 2026-02-02
+
+##### Release Name: Walking Stormcloud
+
 ### Added
 
 - `OneBlink US` tenant
+
+### Dependencies
+
+- update @oneblink/sdk to [13.0.0-beta.5](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [12.6.0-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [9.0.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [8.11.1-beta.4](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
+- update jsonwebtoken to [9.0.3](https://github.com/auth0/node-jsonwebtoken/blob/master/CHANGELOG.md) (from [9.0.2](https://github.com/auth0/node-jsonwebtoken/blob/master/CHANGELOG.md))
 
 ## [1.16.0] - 2025-12-17
 
