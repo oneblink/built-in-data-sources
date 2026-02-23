@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.18.0] - 2026-02-23
+
+##### Release Name: Winds of Solitude
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.0-beta.7](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.0.0-beta.5](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [9.1.0-beta.3](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [9.0.0-beta.2](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.17.0] - 2026-02-02
 
 ##### Release Name: Walking Stormcloud
