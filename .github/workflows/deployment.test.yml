@@ -40,7 +40,7 @@ jobs:
   #
   OneBlinkUSTest:
     name: Test Deployment (OneBlink US)
-    if: ${{ !startsWith(github.event.head_commit.message, '[RELEASE]') }}
+    if: ${{ !startsWith(github.event.head_commit.message, '[RELEASE]') && vars.DEPLOY_ONEBLINK_US_TENANT == 'true' }}
     uses: ./.github/workflows/deployment.yml
     with:
       CLI: oneblink-us

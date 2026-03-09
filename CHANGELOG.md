@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+### Changed
+
+- `OneBlink US` deployments to be conditional based on github variable
+
 ## [1.18.0] - 2026-02-23
 
 ##### Release Name: Winds of Solitude
