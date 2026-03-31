@@ -5,9 +5,17 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.19.0] - 2026-03-31
+
+##### Release Name: The Meatspace
+
 ### Changed
 
 - `OneBlink US` deployments to be conditional based on github variable
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.1-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.1.0-beta.7](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
 
 ## [1.18.0] - 2026-02-23
 
