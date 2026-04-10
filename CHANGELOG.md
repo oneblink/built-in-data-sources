@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.20.0] - 2026-04-10
+
+##### Release Name: Curly Wurlys
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.2-beta.2](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.1.1-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.19.0] - 2026-03-31
 
 ##### Release Name: The Meatspace
