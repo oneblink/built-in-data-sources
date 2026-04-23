@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.21.0] - 2026-04-23
+
+##### Release Name: Structured Enthusiasm
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.3-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.1.2-beta.2](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.20.0] - 2026-04-10
 
 ##### Release Name: Curly Wurlys
