@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.22.0] - 2026-05-07
+
+##### Release Name: Hushed Whispers
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.4-beta.6](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.1.3-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [9.2.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [9.1.0-beta.3](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.21.0] - 2026-04-23
 
 ##### Release Name: Structured Enthusiasm
