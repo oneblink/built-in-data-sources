@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.24.0] - 2026-05-22
+
+##### Release Name: Unfounded Doubts
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.6-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.1.5-beta.2](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.23.0] - 2026-05-13
 
 ##### Release Name: Line of Comprehension
