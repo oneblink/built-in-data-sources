@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.25.0] - 2026-06-18
+
+##### Release Name: Fractured Daydream
+
+### Dependencies
+
+- update @oneblink/sdk to [13.1.7-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.1.6-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [9.2.1-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [9.2.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.24.0] - 2026-05-22
 
 ##### Release Name: Unfounded Doubts
