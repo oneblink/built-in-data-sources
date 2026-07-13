@@ -30,7 +30,7 @@
     "npm": ">=11"
   },
   "homepage": "https://github.com/oneblink/built-in-data-sources#readme",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "main": "index.js",
   "repository": {
     "type": "git",
