@@ -32,6 +32,7 @@
   "homepage": "https://github.com/oneblink/built-in-data-sources#readme",
   "license": "GPL-3.0-only",
   "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oneblink/built-in-data-sources.git"
