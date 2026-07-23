@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.27.0] - 2026-07-23
+
+##### Release Name: Spherical Box
+
+### Dependencies
+
+- update @oneblink/sdk to [13.2.1-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.0-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.26.0] - 2026-07-09
 
 ##### Release Name: Quiet Misadventure
