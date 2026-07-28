@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.28.0] - 2026-07-28
+
+##### Release Name: Generalised Oblivion
+
+### Dependencies
+
+- update @oneblink/sdk to [13.2.2-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.1-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [10.0.0-beta.3](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [9.2.2-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.27.0] - 2026-07-23
 
 ##### Release Name: Spherical Box
