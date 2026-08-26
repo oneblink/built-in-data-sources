@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.29.0] - 2026-08-26
+
+##### Release Name: Sage Advice
+
+### Dependencies
+
+- update @oneblink/sdk to [13.2.3-beta.11](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.2-beta.3](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [10.1.0-beta.9](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [10.0.0-beta.3](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.28.0] - 2026-07-28
 
 ##### Release Name: Generalised Oblivion
