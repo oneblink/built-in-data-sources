@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.30.0] - 2026-09-15
+
+##### Release Name: Whimsically Dichotomous
+
+### Dependencies
+
+- update @oneblink/sdk to [13.2.4-beta.6](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.3-beta.11](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.29.0] - 2026-08-26
 
 ##### Release Name: Sage Advice
