@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.32.0] - 2026-10-15
+
+##### Release Name: Dish Pig
+
+### Dependencies
+
+- update @oneblink/sdk to [13.2.6-beta.4](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.4-beta.6](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.31.0] - 2026-10-01
 
 ##### Release Name: Temporary Blip
