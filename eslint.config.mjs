@@ -30,12 +30,14 @@ export default defineConfig([
     ignores: ['**/node_modules', '**/dist'],
   },
   {
-    extends: compat.extends(
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
-      'prettier',
-    ),
-    ...pluginSecurityStrict,
+    extends: [
+      compat.extends(
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'prettier',
+      ),
+      pluginSecurityStrict,
+    ],
     plugins: {
       prettier,
     },
