@@ -5,6 +5,17 @@ import js from '@eslint/js'
 import { FlatCompat } from '@eslint/eslintrc'
 import { defineConfig } from 'eslint/config'
 import prettier from 'eslint-plugin-prettier'
+import pluginSecurity from 'eslint-plugin-security'
+
+const pluginSecurityStrict = {
+  ...pluginSecurity.configs.recommended,
+  rules: Object.fromEntries(
+    Object.keys(pluginSecurity.configs.recommended.rules).map((rule) => [
+      rule,
+      'error',
+    ]),
+  ),
+}
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -19,12 +30,14 @@ export default defineConfig([
     ignores: ['**/node_modules', '**/dist'],
   },
   {
-    extends: compat.extends(
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
-      'prettier',
-    ),
-
+    extends: [
+      compat.extends(
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'prettier',
+      ),
+      pluginSecurityStrict,
+    ],
     plugins: {
       prettier,
     },
