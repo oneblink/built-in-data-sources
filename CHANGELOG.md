@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.34.0] - 2026-11-17
+
+##### Release Name: Adequately Kicked
+
+### Dependencies
+
+- update @oneblink/sdk to [13.2.7-beta.7](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.7-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
+- update @oneblink/sdk-core to [10.3.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md) (from [10.2.0-beta.1](https://github.com/oneblink/sdk-core-js/blob/master/CHANGELOG.md))
+
 ## [1.33.0] - 2026-10-28
 
 ##### Release Name: Movie Night
