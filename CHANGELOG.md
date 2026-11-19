@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [1.35.0] - 2026-11-19
+
+##### Release Name: Slightest Provocation
+
+### Dependencies
+
+- update @oneblink/sdk to [13.3.0-beta.1](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md) (from [13.2.7-beta.7](https://github.com/oneblink/sdk-node-js/blob/master/CHANGELOG.md))
+
 ## [1.34.0] - 2026-11-17
 
 ##### Release Name: Adequately Kicked
